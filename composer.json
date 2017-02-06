@@ -8,13 +8,14 @@
             "email": "2272713550@qq.com"
         }
     ],
+    "version":"1.0.0",
     "autoload":{
     	"psr-4":{
     		"zf\\router\\":"src/"
     	}
     },
     "require": {
-    	  "php": ">=7.1"
+    	  "php": ">=5.4"
     },
     "require-dev": {
         "phpunit/phpunit": "~5.4"

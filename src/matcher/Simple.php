@@ -101,7 +101,7 @@ class Simple extends Base
 
 			$analyseResult = static::analyse($refer);
 
-			$callback = array(self, $analyseResult['match_type']);
+			$callback = array(self::class, $analyseResult['match_type']);
 
 			return call_user_func($callback, $analyseResult, $current->getUri());
 
