@@ -1,0 +1,22 @@
+{
+    "name": "zzctmac/zf-router",
+    "description": "zf framework default route",
+     "keywords": ["framework", "zf", "router"],
+    "authors": [
+        {
+            "name": "zzc",
+            "email": "2272713550@qq.com"
+        }
+    ],
+    "autoload":{
+    	"psr-4":{
+    		"zf\\router\\":"src/"
+    	}
+    },
+    "require": {
+    	  "php": ">=7.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~5.4"
+    }
+}
